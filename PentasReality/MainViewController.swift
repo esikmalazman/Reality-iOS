@@ -9,7 +9,7 @@ import UIKit
 import SceneKit
 import ARKit
 
-class ViewController: UIViewController, ARSCNViewDelegate {
+final class MainViewController: UIViewController {
 
     @IBOutlet var sceneView: ARSCNView!
     
@@ -46,7 +46,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.session.pause()
     }
 
-    // MARK: - ARSCNViewDelegate
+}
+
+// MARK: - ARSCNViewDelegate
+extension MainViewController : ARSCNViewDelegate {
     
 /*
     // Override to create and configure nodes for anchors added to the view's session.
