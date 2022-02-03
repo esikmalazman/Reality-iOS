@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="gTV-IL-0wX" customClass="ArtCollectionCell" customModule="PentasReality" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="220"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="250" height="220"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qyd-QU-hZO">
+                        <rect key="frame" x="0.0" y="0.0" width="250" height="220"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OhC-sf-5h2">
+                                <rect key="frame" x="0.0" y="0.0" width="250" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="Iyc-ZG-WnH"/>
+                                    <constraint firstAttribute="height" constant="220" id="LxY-86-eXE"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" name="AccentColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="OhC-sf-5h2" secondAttribute="bottom" id="92p-cq-aCr"/>
+                            <constraint firstAttribute="trailing" secondItem="OhC-sf-5h2" secondAttribute="trailing" id="BVB-Bm-uk6"/>
+                            <constraint firstItem="OhC-sf-5h2" firstAttribute="leading" secondItem="qyd-QU-hZO" secondAttribute="leading" id="FTu-3y-JUI"/>
+                            <constraint firstItem="OhC-sf-5h2" firstAttribute="top" secondItem="qyd-QU-hZO" secondAttribute="top" id="a6Y-3g-eUt"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="qyd-QU-hZO" secondAttribute="bottom" id="0gV-2J-wXs"/>
+                <constraint firstItem="qyd-QU-hZO" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="B4v-Gb-5qp"/>
+                <constraint firstAttribute="trailing" secondItem="qyd-QU-hZO" secondAttribute="trailing" id="dPE-J1-Fz7"/>
+                <constraint firstItem="qyd-QU-hZO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="rVp-Ck-87S"/>
+            </constraints>
+            <size key="customSize" width="250" height="220"/>
+            <connections>
+                <outlet property="artImageView" destination="OhC-sf-5h2" id="Mky-9k-EZr"/>
+            </connections>
+            <point key="canvasLocation" x="276.81159420289856" y="155.35714285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
