@@ -20,11 +20,8 @@ final class HeadNavigationBar: UIViewController {
         super.viewWillLayoutSubviews()
         
         let maskLayer = CAShapeLayer()
+        // Make the image circle crop
         maskLayer.path = UIBezierPath(ovalIn: profileImageView.bounds).cgPath
         profileImageView.layer.mask = maskLayer
     }
-    
-    
-    
-    
 }
