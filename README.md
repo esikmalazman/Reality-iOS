@@ -1,8 +1,8 @@
 # Reality-iOS
 
-- NFT Augmented Reality(AR) app that demonstrate application of ARImageTracking in iOS powered by ARKit 2.
+NFT Augmented Reality(AR) app that demonstrate application of ARImageTracking in iOS powered by ARKit 2.
 
-<img src=" " width="200">
+<img src="https://user-images.githubusercontent.com/59039044/154185655-a9f53c32-afee-44d0-8871-655e46e2130b.mov" width="200">
 
 
 ## Description
@@ -24,6 +24,10 @@
 - Track an image to display 3D object and play sound when anchor is detected
 - Rotate animation on the dispayed 3D model with SCNAction
 - Remove the node when it is hidden from view
+
+
+
+
 
 
 
