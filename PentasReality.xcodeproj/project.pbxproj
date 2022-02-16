@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F6AB73D27AB5E9200E0845C /* ArtCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6AB73B27AB5E9200E0845C /* ArtCollectionCell.swift */; };
-		7F6AB73E27AB5E9200E0845C /* ArtCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F6AB73C27AB5E9200E0845C /* ArtCollectionCell.xib */; };
+		7F617BB127B340910045F5CF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F617BAF27B340910045F5CF /* CardView.swift */; };
+		7F617BB227B340910045F5CF /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F617BB027B340910045F5CF /* CardView.xib */; };
 		7F6AB74127AB6C0B00E0845C /* UIViewController + Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6AB74027AB6C0B00E0845C /* UIViewController + Preview.swift */; };
 		7F6F208627978C7A00636A3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F208527978C7A00636A3B /* AppDelegate.swift */; };
 		7F6F208827978C7A00636A3B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F208727978C7A00636A3B /* art.scnassets */; };
@@ -16,18 +16,21 @@
 		7F6F208D27978C7A00636A3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F208B27978C7A00636A3B /* Main.storyboard */; };
 		7F6F208F27978C7C00636A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F208E27978C7C00636A3B /* Assets.xcassets */; };
 		7F6F209227978C7C00636A3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F209027978C7C00636A3B /* LaunchScreen.storyboard */; };
+		7F81E18A27BC8035000195D3 /* XIBName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F81E18927BC8035000195D3 /* XIBName.swift */; };
+		7F81E18C27BC90D0000195D3 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F81E18B27BC90D0000195D3 /* AppTheme.swift */; };
 		7F825EDF27A3768400FF9838 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F825EDE27A3768400FF9838 /* HomeViewController.swift */; };
+		7F99C9DE27BA3A9100EA34B0 /* UIView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F99C9DD27BA3A9100EA34B0 /* UIView + Extensions.swift */; };
+		7F99C9E127BA40C200EA34B0 /* CardTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F99C9DF27BA40C200EA34B0 /* CardTabBar.swift */; };
+		7F99C9E227BA40C200EA34B0 /* CardTabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F99C9E027BA40C200EA34B0 /* CardTabBar.xib */; };
 		7FA0260A2797EE9500BB7093 /* make-me-feel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FA026092797EE9500BB7093 /* make-me-feel.mp3 */; };
-		7FA0260C2797F44500BB7093 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA0260B2797F44500BB7093 /* AudioPlayer.swift */; };
 		7FF1B95127AB80850062895E /* UIView + Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF1B95027AB80850062895E /* UIView + Preview.swift */; };
 		7FF1B98127ABBD830062895E /* HeadNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF1B97F27ABBD820062895E /* HeadNavigationBar.swift */; };
 		7FF1B98227ABBD830062895E /* HeadNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FF1B98027ABBD820062895E /* HeadNavigationBar.xib */; };
-		7FF1B98527ABC09C0062895E /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF1B98427ABC09C0062895E /* AppTheme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7F6AB73B27AB5E9200E0845C /* ArtCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCollectionCell.swift; sourceTree = "<group>"; };
-		7F6AB73C27AB5E9200E0845C /* ArtCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtCollectionCell.xib; sourceTree = "<group>"; };
+		7F617BAF27B340910045F5CF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		7F617BB027B340910045F5CF /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
 		7F6AB74027AB6C0B00E0845C /* UIViewController + Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Preview.swift"; sourceTree = "<group>"; };
 		7F6F208227978C7A00636A3B /* PentasReality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PentasReality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F6F208527978C7A00636A3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,13 +39,16 @@
 		7F6F208C27978C7A00636A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F6F208E27978C7C00636A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F6F209127978C7C00636A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F81E18927BC8035000195D3 /* XIBName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBName.swift; sourceTree = "<group>"; };
+		7F81E18B27BC90D0000195D3 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
 		7F825EDE27A3768400FF9838 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7F99C9DD27BA3A9100EA34B0 /* UIView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extensions.swift"; sourceTree = "<group>"; };
+		7F99C9DF27BA40C200EA34B0 /* CardTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTabBar.swift; sourceTree = "<group>"; };
+		7F99C9E027BA40C200EA34B0 /* CardTabBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardTabBar.xib; sourceTree = "<group>"; };
 		7FA026092797EE9500BB7093 /* make-me-feel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "make-me-feel.mp3"; sourceTree = "<group>"; };
-		7FA0260B2797F44500BB7093 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		7FF1B95027AB80850062895E /* UIView + Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Preview.swift"; sourceTree = "<group>"; };
 		7FF1B97F27ABBD820062895E /* HeadNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadNavigationBar.swift; sourceTree = "<group>"; };
 		7FF1B98027ABBD820062895E /* HeadNavigationBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeadNavigationBar.xib; sourceTree = "<group>"; };
-		7FF1B98427ABC09C0062895E /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +62,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F617BAE27B340770045F5CF /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				7F617BAF27B340910045F5CF /* CardView.swift */,
+				7F617BB027B340910045F5CF /* CardView.xib */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
 		7F6AB73F27AB6BE400E0845C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				7F6AB74027AB6C0B00E0845C /* UIViewController + Preview.swift */,
 				7FF1B95027AB80850062895E /* UIView + Preview.swift */,
+				7F99C9DD27BA3A9100EA34B0 /* UIView + Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -84,19 +100,44 @@
 		7F6F208427978C7A00636A3B /* PentasReality */ = {
 			isa = PBXGroup;
 			children = (
-				7FF1B98327ABC0860062895E /* Util */,
-				7FF1B97D27ABBD4E0062895E /* Custom */,
-				7F6AB73F27AB6BE400E0845C /* Extensions */,
-				7F6F208527978C7A00636A3B /* AppDelegate.swift */,
-				7FA0260D27980DD500BB7093 /* Audio */,
-				7FF1B95327AB83F30062895E /* Scene */,
-				7F6F208727978C7A00636A3B /* art.scnassets */,
-				7F6F208927978C7A00636A3B /* ArtViewController.swift */,
 				7F6F208E27978C7C00636A3B /* Assets.xcassets */,
-				7FA0260B2797F44500BB7093 /* AudioPlayer.swift */,
-				7F825EDE27A3768400FF9838 /* HomeViewController.swift */,
+				7F6F208527978C7A00636A3B /* AppDelegate.swift */,
+				7F6F208727978C7A00636A3B /* art.scnassets */,
+				7FF1B95327AB83F30062895E /* Scene */,
+				7F81E18D27BC9213000195D3 /* ViewController */,
+				7F81E18827BC8023000195D3 /* Utilities */,
+				7F6AB73F27AB6BE400E0845C /* Extensions */,
+				7FA0260D27980DD500BB7093 /* Audio */,
+				7FF1B97D27ABBD4E0062895E /* Custom View */,
 			);
 			path = PentasReality;
+			sourceTree = "<group>";
+		};
+		7F81E18827BC8023000195D3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7F81E18927BC8035000195D3 /* XIBName.swift */,
+				7F81E18B27BC90D0000195D3 /* AppTheme.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7F81E18D27BC9213000195D3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7F825EDE27A3768400FF9838 /* HomeViewController.swift */,
+				7F6F208927978C7A00636A3B /* ArtViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7F99C9E327BA40C800EA34B0 /* CardTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				7F99C9DF27BA40C200EA34B0 /* CardTabBar.swift */,
+				7F99C9E027BA40C200EA34B0 /* CardTabBar.xib */,
+			);
+			path = CardTabBar;
 			sourceTree = "<group>";
 		};
 		7FA0260D27980DD500BB7093 /* Audio */ = {
@@ -105,15 +146,6 @@
 				7FA026092797EE9500BB7093 /* make-me-feel.mp3 */,
 			);
 			path = Audio;
-			sourceTree = "<group>";
-		};
-		7FF1B95227AB83D90062895E /* CollectionCell */ = {
-			isa = PBXGroup;
-			children = (
-				7F6AB73B27AB5E9200E0845C /* ArtCollectionCell.swift */,
-				7F6AB73C27AB5E9200E0845C /* ArtCollectionCell.xib */,
-			);
-			path = CollectionCell;
 			sourceTree = "<group>";
 		};
 		7FF1B95327AB83F30062895E /* Scene */ = {
@@ -125,13 +157,14 @@
 			path = Scene;
 			sourceTree = "<group>";
 		};
-		7FF1B97D27ABBD4E0062895E /* Custom */ = {
+		7FF1B97D27ABBD4E0062895E /* Custom View */ = {
 			isa = PBXGroup;
 			children = (
-				7FF1B95227AB83D90062895E /* CollectionCell */,
+				7F99C9E327BA40C800EA34B0 /* CardTabBar */,
+				7F617BAE27B340770045F5CF /* CardView */,
 				7FF1B97E27ABBD550062895E /* NavigationBar */,
 			);
-			path = Custom;
+			path = "Custom View";
 			sourceTree = "<group>";
 		};
 		7FF1B97E27ABBD550062895E /* NavigationBar */ = {
@@ -141,14 +174,6 @@
 				7FF1B98027ABBD820062895E /* HeadNavigationBar.xib */,
 			);
 			path = NavigationBar;
-			sourceTree = "<group>";
-		};
-		7FF1B98327ABC0860062895E /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				7FF1B98427ABC09C0062895E /* AppTheme.swift */,
-			);
-			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +192,8 @@
 			dependencies = (
 			);
 			name = PentasReality;
+			packageProductDependencies = (
+			);
 			productName = PentasReality;
 			productReference = 7F6F208227978C7A00636A3B /* PentasReality.app */;
 			productType = "com.apple.product-type.application";
@@ -195,6 +222,8 @@
 				Base,
 			);
 			mainGroup = 7F6F207927978C7A00636A3B;
+			packageReferences = (
+			);
 			productRefGroup = 7F6F208327978C7A00636A3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -209,9 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F99C9E227BA40C200EA34B0 /* CardTabBar.xib in Resources */,
 				7FF1B98227ABBD830062895E /* HeadNavigationBar.xib in Resources */,
 				7F6F208827978C7A00636A3B /* art.scnassets in Resources */,
-				7F6AB73E27AB5E9200E0845C /* ArtCollectionCell.xib in Resources */,
+				7F617BB227B340910045F5CF /* CardView.xib in Resources */,
 				7F6F209227978C7C00636A3B /* LaunchScreen.storyboard in Resources */,
 				7FA0260A2797EE9500BB7093 /* make-me-feel.mp3 in Resources */,
 				7F6F208F27978C7C00636A3B /* Assets.xcassets in Resources */,
@@ -227,13 +257,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F6F208A27978C7A00636A3B /* ArtViewController.swift in Sources */,
+				7F81E18C27BC90D0000195D3 /* AppTheme.swift in Sources */,
 				7FF1B98127ABBD830062895E /* HeadNavigationBar.swift in Sources */,
-				7F6AB73D27AB5E9200E0845C /* ArtCollectionCell.swift in Sources */,
-				7FF1B98527ABC09C0062895E /* AppTheme.swift in Sources */,
 				7F6AB74127AB6C0B00E0845C /* UIViewController + Preview.swift in Sources */,
 				7F6F208627978C7A00636A3B /* AppDelegate.swift in Sources */,
 				7F825EDF27A3768400FF9838 /* HomeViewController.swift in Sources */,
-				7FA0260C2797F44500BB7093 /* AudioPlayer.swift in Sources */,
+				7F617BB127B340910045F5CF /* CardView.swift in Sources */,
+				7F99C9DE27BA3A9100EA34B0 /* UIView + Extensions.swift in Sources */,
+				7F99C9E127BA40C200EA34B0 /* CardTabBar.swift in Sources */,
+				7F81E18A27BC8035000195D3 /* XIBName.swift in Sources */,
 				7FF1B95127AB80850062895E /* UIView + Preview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
