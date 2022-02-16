@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardView" customModule="PentasReality" customModuleProvider="target">
+            <connections>
+                <outlet property="artImage" destination="lH2-Hs-LR6" id="gWG-qU-ajN"/>
+                <outlet property="cardView" destination="aBI-qB-W0w" id="2vc-j3-StD"/>
+                <outlet property="infoBtn" destination="idb-qh-OiD" id="uGL-GC-8L4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" userLabel="ContentView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="429"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aBI-qB-W0w" userLabel="CardView">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="429"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rumah-kampung-sample" translatesAutoresizingMaskIntoConstraints="NO" id="lH2-Hs-LR6">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="429"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idb-qh-OiD">
+                            <rect key="frame" x="361" y="8" width="45" height="45"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="rUV-Ns-NPF"/>
+                            </constraints>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <buttonConfiguration key="configuration" style="plain"/>
+                            <connections>
+                                <action selector="infoButtonPressed:" destination="-1" eventType="touchUpInside" id="ozp-Ik-gGC"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="lH2-Hs-LR6" secondAttribute="trailing" id="DYz-8o-PMP"/>
+                        <constraint firstItem="lH2-Hs-LR6" firstAttribute="top" secondItem="aBI-qB-W0w" secondAttribute="top" id="G19-lh-al0"/>
+                        <constraint firstAttribute="trailing" secondItem="idb-qh-OiD" secondAttribute="trailing" constant="8" id="M8f-Y6-Yf1"/>
+                        <constraint firstItem="idb-qh-OiD" firstAttribute="top" secondItem="aBI-qB-W0w" secondAttribute="top" constant="8" id="PJZ-jY-LBV"/>
+                        <constraint firstItem="lH2-Hs-LR6" firstAttribute="leading" secondItem="aBI-qB-W0w" secondAttribute="leading" id="bf2-RE-Rpz"/>
+                        <constraint firstAttribute="bottom" secondItem="lH2-Hs-LR6" secondAttribute="bottom" id="vf1-2T-z0t"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="aBI-qB-W0w" secondAttribute="trailing" id="52m-TE-Msj"/>
+                <constraint firstItem="aBI-qB-W0w" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="EH3-sI-StG"/>
+                <constraint firstItem="aBI-qB-W0w" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="HC5-Ee-MJk"/>
+                <constraint firstAttribute="bottom" secondItem="aBI-qB-W0w" secondAttribute="bottom" id="V0M-0o-qb9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="136.23188405797103" y="265.51339285714283"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="rumah-kampung-sample" width="576" height="584"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
