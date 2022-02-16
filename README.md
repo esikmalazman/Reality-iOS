@@ -2,7 +2,7 @@
 
 - NFT Augmented Reality(AR) app that demonstrate application of ARImageTracking in iOS powered by ARKit 2.
 
-<img src="https://user-images.githubusercontent.com/59039044/147797199-3e6a2b15-d821-41b8-bb24-53cf24197db8.mov " width="200">
+<img src=" " width="200">
 
 
 ## Description
